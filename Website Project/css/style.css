@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,h6{
+  color:brown;
+}
+ul{
+  list-style-type: none;
+}
+li{
+    list-style-image: url('../images/tiny-coffee-cup.gif');
+
+}
+p{
+  text-align: justify;
+}
+body{
+  font-family: 'Open Sans',sans-serif;
+  margin:0 auto;
+  width:960px;
+}
+aside{
+  width:280px;
+  background-color: tan;
+  float: right;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+table,
+td,
+th {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+tbody tr:nth-child(odd){
+  background-color: #b9b4b4;
+}
+.photo-left{
+  float:left;
+  margin-right: 20px;
+}
