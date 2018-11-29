@@ -16,6 +16,7 @@ body{
   margin:0 auto;
   width:960px;
 }
+
 aside{
   width:280px;
   background-color: tan;
@@ -37,4 +38,76 @@ tbody tr:nth-child(odd){
 .photo-left{
   float:left;
   margin-right: 20px;
+}
+a:link ,a:visited{
+  text-decoration: none;
+  color:brown;
+  font-weight: bold;
+}
+a:hover ,a:active{
+  color: black
+
+}
+nav ul{
+  list-style-type: none;
+  padding:0;
+}
+nav li{
+  list-style-image: none;
+  display: inline;
+float:left;
+}
+nav a:link , nav a:visited{
+  background-color: brown;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  padding:10px 0;
+  display: block;
+  width:160px;
+  font-weight: bold;
+}
+nav a:hover , nav a:active{
+  background-color: black
+
+}
+table{
+  border-collapse: collapse;
+
+}
+td,th{
+border:1px solid black;
+width:20%;
+text-align: center;
+padding:5px;
+}
+video{
+margin-left: 160px;
+/* -webkit-filter:grayscale(80%); for applying css to specific rending engine */
+/* filter: grayscale(80%); */
+}
+header{
+  background-image: url("../images/coffee-beans.jpg");
+  height:98px;
+  margin-bottom: 70px;
+}
+header h1{
+  color:rgba(256,256,256,.8);
+  margin-left:30px;
+  margin-top:30px;
+  font-size:50px;
+}
+footer {
+margin: 40px 0;
+}
+footer nav a:link, footer nav a:visited {
+color:gray;
+text-decoration:none;
+display:block
+width:160px;
+text-align:center;
+background-color:white;
+}
+footer nav a:hover {
+color:black;
 }

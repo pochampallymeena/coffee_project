@@ -6,33 +6,50 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
+  <nav>
+  <ul>
+    <li> <a href="index.html">Home</a> </li>
+      <li> <a href="brewing.html">Brewing</a> </li>
+        <li> <a href="grinding.html">Grinding</a> </li>
+          <li> <a href="roasting.html">Roasting</a> </li>
+            <li> <a href="drinks.html">Drinks</a> </li>
+            <li> <a href="survey.html">Coffee Survey</a> </li>
+  </ul>
+  </nav>
+<h1>Coffee Survey</h1>
+<form class="" action="index.html" method="post">
 
-Coffee Survey
-
+<fieldset>
 Your Name
-
+<input type="text" name="User Name" value="">
+<br>
 Email Address
-
+<input type="email" name="Email-id" value="">
+<br>
+</fieldset>
+<fieldset>
 Tell us your coffee preparation methods.
-
+<textarea name="preparation" rows="8" cols="80"></textarea>
+<br>
 Do you grind your own beans?
-yes
-no
-
+<input type="radio" name="choice" value="yes">Yes
+<input type="radio" name="choice" value="no">No
+<br>
 How do you drink your coffee?
-with sugar
-with cream
-
+<input type="checkbox" name="sugar" value="sugar">with sugar
+<input type="checkbox" name="cream" value="cream">with cream
+<br>
 What is your favorite coffee drink?
-
-please select a drink
-drip coffee
-french press
-espresso
-latte
-flavored
-
+<select name="operations">
+  <option selected value="opt1">please select a drink</option>
+  <option value="opt1">drip coffee</option>
+  <option value="opt2">french press</option>
+  <option value="opt3">espresso</option>
+  <option value="opt4">latte</option>
+  <option value="opt5">flavored</option>
+</select>
+</fieldset>
+</form>
 </body>
 </html>
